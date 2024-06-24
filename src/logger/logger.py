@@ -19,3 +19,6 @@ LOG_FILE_NAME=os.path.join(log_file_path,LOG_FILE)
 logging.basicConfig(level=logging.INFO,
                     filename=LOG_FILE_NAME,
                     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s")
+
+if __name__== "__main__":
+    logging.info("Hi there I am testing.")
