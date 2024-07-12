@@ -11,8 +11,6 @@ if not os.path.exists(log_file_path):
         os.makedirs(log_file_path,exist_ok=True)
     except Exception as e:
         pass
-else:
-    print("The directoy already exists.")
 
 LOG_FILE_NAME=os.path.join(log_file_path,LOG_FILE)
 
