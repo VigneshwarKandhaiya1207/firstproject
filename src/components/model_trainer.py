@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from dataclasses import dataclass
-from logger.logger import logging
-from exception.exception import customexception
-from utils.utils import save_objects,evaluate_model
+from src.logger.logger import logging
+from src.exception.exception import customexception
+from src.utils.utils import save_objects,evaluate_model
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
 
 @dataclass 

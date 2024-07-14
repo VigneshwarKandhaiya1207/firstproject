@@ -2,8 +2,8 @@ import os
 import sys
 import joblib
 from pathlib import Path
-from logger.logger import logging
-from exception.exception import customexception
+from src.logger.logger import logging
+from src.exception.exception import customexception
 from sklearn.metrics import r2_score, mean_absolute_error,mean_squared_error
 
 

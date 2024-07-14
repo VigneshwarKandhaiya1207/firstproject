@@ -2,8 +2,8 @@ import os
 import sys
 import numpy as np
 import pandas as pd
-from logger.logger import logging
-from exception.exception import customexception
+from src.logger.logger import logging
+from src.exception.exception import customexception
 from dataclasses import dataclass
 
 @dataclass
